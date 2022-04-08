@@ -65,7 +65,7 @@ keys = [
 ]
 
 layouts = [
-    layout.Columns(border_focus_stack=["#9ece6a", "#9ece6a"], border_width=3, margin=10),#fix coloring
+    layout.Columns(border_focus="#9ece6a", border_normal="#9ece6a", border_width=3, margin=10),#fix coloring
     layout.Max(),
     layout.MonadTall(border_focus='#FFFFFF', margin=10),
 ]
